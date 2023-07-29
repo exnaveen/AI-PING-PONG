@@ -23,9 +23,6 @@ rightWristY = 0;
 rightWristX = 0;
 scoreRightWrist = 0;
 game_status = "";
-//Define a variable to hold the status of the game
-
- 
 
 function setup(){
 var canvas =  createCanvas(700,600);
@@ -47,7 +44,6 @@ function gotPoses(results)
 {
   if(results.length > 0)
   {
-
     rightWristY = results[0].pose.rightWrist.y;
     rightWristX = results[0].pose.rightWrist.x;
     scoreRightWrist =  results[0].pose.keypoints[10].score;
