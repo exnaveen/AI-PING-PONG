@@ -1,0 +1,54 @@
+body
+{
+   background-position: center;
+   background-size: cover;
+}
+
+.heading
+{
+width: 100%;
+text-align: left;
+}
+
+.heading h3
+{
+     display: inline;
+}
+
+.heading button{
+    float: right;
+    border: 3px solid blue;
+    border-radius: 8px;
+}
+
+#start ,#status ,#restart
+{
+font-size: 20px;
+}
+
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
+    text-align: left;
+    font-size: 23px;
+}
+
+h4
+{
+    bottom:0;
+    position:fixed;
+    width:100%;
+   background-color: rgb(211, 211, 211);
+   color:rgb(0, 0, 0);
+   line-height: 2;
+}
+
+canvas 
+  {
+      border:3px solid black;
+      border-radius: 30px;
+      box-shadow:  9px 9px 6px white;
+  }
